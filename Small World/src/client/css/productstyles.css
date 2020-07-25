@@ -1,0 +1,174 @@
+
+.title{
+  text-align: center;
+  padding-bottom:2rem;
+  border: 2px solid red;
+}
+
+span .smallworld{
+  font-weight:700;
+  font-size: 200px;
+}
+
+form{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+
+}
+
+.searcharea{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+hr{
+  height:2px; 
+  border-width: 2px;
+  font-weight: 600; 
+  color:black;
+  margin-top: 40px;
+
+}
+
+.navigation{
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.category{
+  min-width: 60vw;
+}
+
+.category-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.category-list li a{
+  font-size:1.2rem;
+  text-decoration: none;
+  color:black;
+}
+
+li{
+  padding: 6px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+li:hover{
+  background-color: #D9D4CF;
+  color:white;
+}
+
+form input{
+  outline: none;
+}
+
+form input, form button{
+  padding:0.5rem;
+  font-size:10px;
+  border: none;
+  background: #D9D4CF;
+  outline: none;
+  font-family: "Amatic SC", cursive;
+  font-size: 15px;
+}
+
+form input{
+  width:12vw;
+}
+
+
+form button{
+  background: white;
+  color:#7C7877;
+  cursor: pointer;
+  transition:all 0.3s ease;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.searchicon{
+  font-size:15px;
+
+}
+form button:hover{
+  background:#7C7877;
+  color:white;
+}
+
+
+
+main{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: center;
+  align-content: center;
+  min-height: 40vh;
+  transition: 1s;
+
+}
+
+img{
+  height: 400px;
+  width: 290px;
+  padding:10px;
+  position:relative;
+  overflow:hidden;
+  cursor: pointer;
+}
+
+.nameofitem{
+
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+h2{
+  font-weight: 300;
+}
+
+
+
+
+footer{
+  background: #D9D4CF;
+  height: 50px;
+  bottom:0;
+  
+}
+
+.footerhtml{
+  font-size:1.2rem;
+  margin-right: 20px;
+  text-decoration: none;
+  color:black;
+  padding: 10px;
+}
+
+.foot{
+  padding-top: 10px;
+}
+
+.activate{
+  background-color: #D9D4CF;
+  color:white;
+
+}
+
+

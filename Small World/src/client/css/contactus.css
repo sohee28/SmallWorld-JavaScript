@@ -1,0 +1,221 @@
+footer{
+    background: #D9D4CF;
+    height: 50px;
+    bottom:0;
+    
+  }
+  
+  .footerhtml{
+    font-size:1.2rem;
+    margin-right: 20px;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+  }
+  
+  .foot{
+    padding-top: 10px;
+  }
+  
+  .main-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+  }
+
+  .haveSomeQuestions{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top:3rem;
+      padding-bottom: 5rem;
+      border-bottom: 2px solid #7C7877;
+
+  }
+
+  .questions{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      min-height: 47vh;
+      min-width: 35vw;
+
+
+  }
+
+  .questionTitle{
+      padding: 2rem;
+      font-size: 30px;
+      text-align: center;
+
+  }
+  
+  .questionButton{
+      padding: 1rem;
+      text-align: center;
+      
+  }
+
+  .questionButton button{
+      background-color: #D9D4CF;
+      padding: .5rem;
+      border-radius: 10px;
+      border: none;
+      font-family: "Amatic SC", cursive;
+      width: 5rem;
+      font-size: 20px;
+      outline: none;
+      cursor: pointer;
+
+  }
+
+  .questionButton button:hover{
+      background-color: #7C7877;
+      color: white;
+  }
+
+  .contactusfield{
+      background-color: #7C7877;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      border-radius:9px;
+      min-width: 40vw;
+
+  }
+
+  .fcontactusfield{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 50%;
+      align-items: center;
+      margin: 1.5rem;
+
+      
+  }
+
+  .scontactusfield{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin: 1.5rem;
+
+  }
+
+ 
+  input{
+    font-family: "Amatic SC", cursive;
+    font-size: 22px;
+    font-weight: lighter;
+    background-color: #7C7877;
+    border:none;
+    border-bottom:1px solid white;
+    text-align: center;
+    width: 90%;
+    outline:none;
+
+
+  }
+
+  input::placeholder{
+      color:white;
+  }
+  
+  textarea{
+    box-sizing:border-box;
+    font-family: "Amatic SC", cursive;
+    font-size: 22px;
+    font-weight: lighter;
+    background-color: #7C7877;
+    border:1px solid white;
+    text-align: center;
+    width: 90%;
+    height: 73%;
+    resize:none;
+    outline:none;
+  }
+
+textarea::placeholder{
+    color:white;
+}
+
+
+.connect{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-top:5rem;
+      padding-bottom: 3rem;
+}
+
+.map{
+    background: black;
+    min-width: 40vw;
+    height: 440px;
+    border-radius:9px;
+}
+
+.connectMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 35vw;
+
+}
+
+.connectTitle{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 30px;
+    text-align: center;
+}
+
+.connectDetail{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+.connectDetail h3{
+    font-size: 28px;
+    color:black;
+
+}
+
+.connectDetail h4, p{
+    font-size: 20px;
+    color:black;
+    padding: 1rem;
+}
+
+.connectSocial{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    text-align: center;
+}
+
+.connectSocial i{
+    padding: 1rem;
+}
+
+.socialicon{
+    font-size: 30px;
+}
+
+.map{
+    width:800px;
+    height: 440px;
+}
+
+.connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

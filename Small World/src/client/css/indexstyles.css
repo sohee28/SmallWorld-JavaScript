@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    min-height: 100vh;
+    color: black;
+    font-family: "Amatic SC", cursive;
+}
+
+.container{
+    max-width: 85vw;
+    max-height: 40%;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-bottom: 2.5rem;
+  
+}  
+
+.im{
+    margin-top:8px;
+}
+
+.a{
+    font-size:1.6rem;
+    margin-left: 15px;
+    text-decoration: none;
+    color:black;
+}
+header {
+    min-height: 15vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+
+  }
+
+.first-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+svg{
+    margin-left: 8px;
+    font-size:1.3rem;
+}
+
+
+.extra-background{
+    display: flex;
+    min-height: 52vw;
+    animation:slide 10s infinite;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+@keyframes slide{
+    0%, 100%{
+        background-image: url(../img/kidsmodel.jpeg);
+    }
+    25%{
+        background-image: url(../img/kidsmodel3.jpg);
+    }
+    50%{
+        background-image: url(../img/kidsmodel2.jpeg);
+    }
+    75%{
+        background-image: url(../img/kidsmodel4.jpg);
+    }
+}
+
+.overlay{
+    height:0%;
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color:rgb(217, 212, 207);
+    background-color:rgb(217, 212, 207,0.95);
+    overflow-y: hidden;
+    transition: 0.8s;
+    
+}
+
+.nav-links{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top:10%;
+    width: 80%;
+    text-align: center;
+    height:40%;
+    left:10%;
+
+}
+
+ul{
+    list-style-type: none;
+    color: black;
+}
+
+
+.second, .first, .fourth, .third, .smallworldtitle{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    letter-spacing: 1px;
+}
+
+.small-list{
+    padding:6px;
+    border-radius: 3px;
+    font-size:20px;
+}
+
+.small-list:hover{
+    background-color: rgb(97, 77, 72);
+    color:white;
+
+}
+
+h3{
+    font-size:20px;
+    color: rgb(97, 77, 72);
+    padding:6px;
+    border-radius: 3px;
+
+}
+
+.closebtn{
+    position: relative;
+    top:20px;
+    left:40px;
+    font-size:30px;
+}
+
+.vertical-line{
+    border-right: 2px solid #7C7877;
+    margin-top: 2rem;
+
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }

@@ -1,0 +1,81 @@
+
+footer{
+    background: #D9D4CF;
+    height: 50px;
+    bottom:0;
+    
+  }
+  
+  .footerhtml{
+    font-size:1.2rem;
+    margin-right: 20px;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+  }
+  
+  .foot{
+    padding-top: 10px;
+  }
+  
+  .main-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-left:15%;
+      margin-right:15%;
+
+  }
+
+  .image-section{
+    align-content: center;
+    text-align: center;
+    padding: 1.5rem;
+
+  }
+
+  .aboutus-image{
+        height: 60%;
+        width:60%;
+
+  }
+
+  h1{
+      font-size: 60px;
+      text-align: center;
+      padding:1rem;
+      padding-top:1.5rem;
+      font-weight: bold;
+      text-decoration:underline;
+  }
+
+  .first-para{
+    padding:1.5rem;
+
+  }
+  .second-para{
+      padding: 1.5rem;
+  }
+
+ .first-para h3, .second-para h3{
+     font-size: 40px;
+     font-weight: lighter;
+     letter-spacing: 3px;
+     color: black;
+     padding:0.5rem;
+ }
+
+ .first-para h3{
+     padding-top:2.5rem;
+ }
+
+ .first-para p, .second-para p{
+    letter-spacing:2px;
+    font-size:20px;
+    padding: 0.5rem;
+ }
+
+ .second-para p{
+     padding-bottom: 2.5rem;
+ }
+
